@@ -1,0 +1,1117 @@
+2025-09-18 18:06:04 - UiAutomationProject - INFO - 开始获取项目代码 - 项目ID: 47
+2025-09-18 18:06:04 - UiAutomationProject - INFO - 请求参数 - 时间戳: 1758189964626, 随机数: 0.7939958232210287, 缓存破坏器: 863462
+2025-09-18 18:06:04 - UiAutomationProject - INFO - 请求头 - X-Requested-With: XMLHttpRequest, X-Cache-Buster: 863462
+2025-09-18 18:06:04 - UiAutomationProject - INFO - 项目信息 - 流程名称: 多个测试步骤测试跳转标签, 产品IDs: ["SCS"], 系统: Web
+2025-09-18 18:06:04 - UiAutomationProject - INFO - 尝试读取文件 - 项目ID: 47, 文件路径: Test_Case\SCS_Web_test_3.py
+2025-09-18 18:06:04 - UiAutomationProject - INFO - 成功读取文件 - 项目ID: 47, 文件大小: 43125 字符
+2025-09-18 18:06:04 - UiAutomationProject - INFO - 读取现有文件成功，文件大小: 43125 字符
+2025-09-18 18:06:04 - UiAutomationProject - INFO - 文件不存在，生成默认代码，代码长度: 43125 字符
+2025-09-18 18:06:04 - UiAutomationProject - INFO - 代码获取完成，返回响应
+2025-09-18 18:06:24 - UiAutomationProject - INFO - 执行记录已创建: ID=41, 项目ID=47, 状态=running, 流程=多个测试步骤测试跳转标签
+2025-09-18 18:06:24 - UiAutomationProject - INFO - 执行测试文件: SCS_Web_test_3.py
+2025-09-18 18:06:24 - UiAutomationProject - INFO - 测试开始，当前日志文件行数: 11
+2025-09-18 18:06:24 - UiAutomationProject - INFO - 测试文件分析结果: {'test_methods': ['test_SCS_1', 'test_SCS_2', 'test_SCS_3', 'test_SCS_4', 'test_SCS_5', 'test_concurrent_independent_browsers'], 'method_count': 6, 'has_concurrent_method': True, 'should_use_concurrent': True}
+2025-09-18 18:06:24 - UiAutomationProject - INFO - 检测到多个测试方法，执行并发方法: test_concurrent_independent_browsers
+2025-09-18 18:06:24 - UiAutomationProject - INFO - 设置环境变量 PROJECT_ID: 47
+2025-09-18 18:06:24 - UiAutomationProject - INFO - 设置环境变量 - SYSTEM: Web, PRODUCT_TYPE: web, ENVIRONMENT: test
+2025-09-18 18:06:24 - UiAutomationProject - INFO - 执行pytest命令: python -m pytest Test_Case\SCS_Web_test_3.py -k test_concurrent_independent_browsers -v
+2025-09-18 18:06:24 - UiAutomationProject - INFO - 进程已添加到running_tests，项目ID: 47
+2025-09-18 18:06:26 - UiAutomationProject - INFO - 开始并发执行 5 个独立浏览器实例
+2025-09-18 18:06:26 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:06:26 - UiAutomationProject - INFO - 创建了 5 个独立浏览器实例的测试任务
+2025-09-18 18:06:26 - UiAutomationProject - INFO - 开始并发执行...
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_2
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_2
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_2
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_3
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_3
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_3
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_5
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_5
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_5
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_4
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_4
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_4
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_1
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_1
+2025-09-18 18:06:28 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_1
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_1] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-18 18:06:33 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_1] 正在打开新标签页: https://www.baidu.com/
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_2] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-18 18:06:33 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_2] 正在打开新标签页: https://www.baidu.com/
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_4] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-18 18:06:33 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_4] 正在打开新标签页: https://www.baidu.com/
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_1] 创建新标签页 (尝试 1/3)
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_4] 创建新标签页 (尝试 1/3)
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_2] 创建新标签页 (尝试 1/3)
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_3] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-18 18:06:33 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-18 18:06:33 - UiAutomationProject - INFO - [test_SCS_3] 正在打开新标签页: https://www.baidu.com/
+2025-09-18 18:06:34 - UiAutomationProject - INFO - [test_SCS_3] 创建新标签页 (尝试 1/3)
+2025-09-18 18:06:34 - UiAutomationProject - INFO - [test_SCS_1] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-18 18:06:34 - UiAutomationProject - INFO - [test_SCS_5] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-18 18:06:34 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-18 18:06:34 - UiAutomationProject - INFO - [test_SCS_5] 正在打开新标签页: https://www.baidu.com/
+2025-09-18 18:06:34 - UiAutomationProject - INFO - [test_SCS_2] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-18 18:06:34 - UiAutomationProject - INFO - [test_SCS_4] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-18 18:06:34 - UiAutomationProject - INFO - [test_SCS_5] 创建新标签页 (尝试 1/3)
+2025-09-18 18:06:35 - UiAutomationProject - INFO - [test_SCS_3] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-18 18:06:35 - UiAutomationProject - INFO - [test_SCS_5] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-18 18:06:37 - UiAutomationProject - INFO - [test_SCS_4] 新标签页页面加载完成
+2025-09-18 18:06:37 - UiAutomationProject - INFO - [test_SCS_5] 新标签页页面加载完成
+2025-09-18 18:06:37 - UiAutomationProject - INFO - [test_SCS_3] 新标签页页面加载完成
+2025-09-18 18:06:37 - UiAutomationProject - INFO - [test_SCS_4] 已切换到新标签页: https://www.baidu.com/
+2025-09-18 18:06:37 - UiAutomationProject - INFO - [test_SCS_4] 当前共有 2 个标签页
+2025-09-18 18:06:38 - UiAutomationProject - INFO - [test_SCS_5] 已切换到新标签页: https://www.baidu.com/
+2025-09-18 18:06:38 - UiAutomationProject - INFO - [test_SCS_3] 已切换到新标签页: https://www.baidu.com/
+2025-09-18 18:06:38 - UiAutomationProject - INFO - [test_SCS_2] 新标签页页面加载完成
+2025-09-18 18:06:38 - UiAutomationProject - INFO - [test_SCS_4] URL是否存在断言成功: https://www.baidu.com/
+2025-09-18 18:06:41 - UiAutomationProject - INFO - [test_SCS_2] 已切换到新标签页: https://www.baidu.com/
+2025-09-18 18:06:41 - UiAutomationProject - INFO - [test_SCS_3] 当前共有 2 个标签页
+2025-09-18 18:06:42 - UiAutomationProject - INFO - [test_SCS_5] 当前共有 2 个标签页
+2025-09-18 18:06:43 - UiAutomationProject - INFO - [test_SCS_4] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-18 18:06:45 - UiAutomationProject - INFO - [test_SCS_4] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-18 18:06:45 - UiAutomationProject - INFO - [test_SCS_3] URL是否存在断言成功: https://www.baidu.com/
+2025-09-18 18:06:48 - UiAutomationProject - INFO - [test_SCS_1] 新标签页页面加载完成
+2025-09-18 18:06:48 - UiAutomationProject - INFO - [test_SCS_2] 当前共有 2 个标签页
+2025-09-18 18:06:49 - UiAutomationProject - INFO - [test_SCS_5] URL是否存在断言成功: https://www.baidu.com/
+2025-09-18 18:06:54 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-18 18:06:54 - UiAutomationProject - INFO - [test_SCS_4] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:06:54 - UiAutomationProject - INFO - [test_SCS_1] 已切换到新标签页: https://www.baidu.com/
+2025-09-18 18:06:54 - UiAutomationProject - INFO - [test_SCS_3] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-18 18:06:56 - UiAutomationProject - INFO - [test_SCS_3] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-18 18:06:56 - UiAutomationProject - INFO - [test_SCS_2] URL是否存在断言成功: https://www.baidu.com/
+2025-09-18 18:06:59 - UiAutomationProject - INFO - [test_SCS_5] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-18 18:07:01 - UiAutomationProject - INFO - [test_SCS_5] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-18 18:07:03 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-18 18:07:03 - UiAutomationProject - INFO - [test_SCS_3] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:03 - UiAutomationProject - INFO - [test_SCS_2] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-18 18:07:05 - UiAutomationProject - INFO - [test_SCS_2] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-18 18:07:05 - UiAutomationProject - INFO - [test_SCS_4] 创建新标签页 (尝试 1/3)
+2025-09-18 18:07:05 - UiAutomationProject - INFO - [test_SCS_1] 当前共有 2 个标签页
+2025-09-18 18:07:08 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-18 18:07:08 - UiAutomationProject - INFO - [test_SCS_5] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:08 - UiAutomationProject - INFO - [test_SCS_3] 创建新标签页 (尝试 1/3)
+2025-09-18 18:07:10 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-18 18:07:10 - UiAutomationProject - INFO - [test_SCS_2] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:10 - UiAutomationProject - INFO - [test_SCS_1] URL是否存在断言成功: https://www.baidu.com/
+2025-09-18 18:07:13 - UiAutomationProject - INFO - [test_SCS_5] 创建新标签页 (尝试 1/3)
+2025-09-18 18:07:13 - UiAutomationProject - INFO - [test_SCS_2] 创建新标签页 (尝试 1/3)
+2025-09-18 18:07:13 - UiAutomationProject - INFO - [test_SCS_4] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-18 18:07:13 - UiAutomationProject - INFO - [test_SCS_4] 新标签页页面加载完成
+2025-09-18 18:07:13 - UiAutomationProject - INFO - [test_SCS_1] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-18 18:07:15 - UiAutomationProject - INFO - [test_SCS_1] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-18 18:07:15 - UiAutomationProject - INFO - [test_SCS_3] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-18 18:07:15 - UiAutomationProject - INFO - [test_SCS_4] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:15 - UiAutomationProject - INFO - [test_SCS_3] 新标签页页面加载完成
+2025-09-18 18:07:15 - UiAutomationProject - INFO - [test_SCS_2] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-18 18:07:15 - UiAutomationProject - INFO - [test_SCS_5] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-18 18:07:15 - UiAutomationProject - INFO - [test_SCS_4] 当前共有 3 个标签页
+2025-09-18 18:07:16 - UiAutomationProject - INFO - [test_SCS_3] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:18 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-18 18:07:18 - UiAutomationProject - INFO - [test_SCS_1] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:18 - UiAutomationProject - INFO - [test_SCS_4] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:21 - UiAutomationProject - INFO - [test_SCS_2] 新标签页页面加载完成
+2025-09-18 18:07:21 - UiAutomationProject - INFO - [test_SCS_5] 新标签页页面加载完成
+2025-09-18 18:07:21 - UiAutomationProject - INFO - [test_SCS_4] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-18 18:07:23 - UiAutomationProject - INFO - [test_SCS_4] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-18 18:07:23 - UiAutomationProject - INFO - [test_SCS_1] 创建新标签页 (尝试 1/3)
+2025-09-18 18:07:23 - UiAutomationProject - INFO - [test_SCS_2] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:23 - UiAutomationProject - INFO - [test_SCS_5] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:23 - UiAutomationProject - INFO - [test_SCS_3] 当前共有 3 个标签页
+2025-09-18 18:07:26 - UiAutomationProject - INFO - [test_SCS_1] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-18 18:07:26 - UiAutomationProject - INFO - [test_SCS_2] 当前共有 3 个标签页
+2025-09-18 18:07:27 - UiAutomationProject - INFO - [test_SCS_3] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:31 - UiAutomationProject - INFO - [test_SCS_5] 当前共有 3 个标签页
+2025-09-18 18:07:32 - UiAutomationProject - INFO - [test_SCS_1] 新标签页页面加载完成
+2025-09-18 18:07:32 - UiAutomationProject - INFO - [test_SCS_2] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:35 - UiAutomationProject - INFO - [test_SCS_1] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:35 - UiAutomationProject - INFO - [test_SCS_3] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-18 18:07:37 - UiAutomationProject - INFO - [test_SCS_3] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-18 18:07:37 - UiAutomationProject - INFO - [test_SCS_4] 测试步骤_step_2_after_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_4_step_2_after_2025_09_18_18_07_26.png
+2025-09-18 18:07:37 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-18 18:07:40 - UiAutomationProject - INFO - [test_SCS_5] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:07:43 - UiAutomationProject - INFO - [test_SCS_2] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-18 18:07:45 - UiAutomationProject - INFO - [test_SCS_2] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-18 18:07:45 - UiAutomationProject - INFO - [test_SCS_5] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-18 18:07:47 - UiAutomationProject - INFO - [test_SCS_5] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-18 18:07:47 - UiAutomationProject - INFO - [test_SCS_4] 测试步骤_over_test_test_step_2_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_4_over_test_test_step_2_2025_09_18_18_07_40.png
+2025-09-18 18:07:49 - UiAutomationProject - INFO - [test_SCS_4] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-18 18:07:49 - UiAutomationProject - INFO - [test_SCS_4] test_SCS_4 完成
+2025-09-18 18:07:49 - UiAutomationProject - INFO - [test_SCS_3] 元素点击超时 (10秒): //*[@id='blog_nav_sitehome']
+2025-09-18 18:07:49 - UiAutomationProject - INFO - [test_SCS_3]第1次操作失败
+2025-09-18 18:07:49 - UiAutomationProject - INFO - 所有操作均失败！
+2025-09-18 18:07:54 - UiAutomationProject - INFO - [test_SCS_1] 当前共有 3 个标签页
+2025-09-18 18:07:55 - UiAutomationProject - INFO - [test_SCS_3] 测试步骤_step_2_after_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_3_step_2_after_2025_09_18_18_07_50.png
+2025-09-18 18:07:55 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-18 18:07:58 - UiAutomationProject - INFO - [test_SCS_2] 测试步骤_step_2_after_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_2_step_2_after_2025_09_18_18_07_52.png
+2025-09-18 18:07:58 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-18 18:08:01 - UiAutomationProject - INFO - [test_SCS_5] 测试步骤_step_2_after_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_5_step_2_after_2025_09_18_18_07_54.png
+2025-09-18 18:08:01 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-18 18:08:04 - UiAutomationProject - INFO - [test_SCS_1] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-18 18:08:07 - UiAutomationProject - INFO - [test_SCS_3] 测试步骤_over_test_test_step_2_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_3_over_test_test_step_2_2025_09_18_18_07_58.png
+2025-09-18 18:08:09 - UiAutomationProject - INFO - [test_SCS_3] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-18 18:08:09 - UiAutomationProject - INFO - [test_SCS_3] test_SCS_3 完成
+2025-09-18 18:08:09 - UiAutomationProject - INFO - [test_SCS_2] 测试步骤_over_test_test_step_2_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_2_over_test_test_step_2_2025_09_18_18_08_01.png
+2025-09-18 18:08:11 - UiAutomationProject - INFO - [test_SCS_2] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-18 18:08:11 - UiAutomationProject - INFO - [test_SCS_2] test_SCS_2 完成
+2025-09-18 18:08:11 - UiAutomationProject - INFO - [test_SCS_5] 测试步骤_over_test_test_step_2_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_5_over_test_test_step_2_2025_09_18_18_08_04.png
+2025-09-18 18:08:13 - UiAutomationProject - INFO - [test_SCS_5] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-18 18:08:13 - UiAutomationProject - INFO - [test_SCS_5] test_SCS_5 完成
+2025-09-18 18:08:13 - UiAutomationProject - INFO - [test_SCS_1] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-18 18:08:15 - UiAutomationProject - INFO - [test_SCS_1] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-18 18:08:17 - UiAutomationProject - INFO - [test_SCS_1] 测试步骤_step_2_after_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_1_step_2_after_2025_09_18_18_08_17.png
+2025-09-18 18:08:17 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-18 18:08:20 - UiAutomationProject - INFO - [test_SCS_1] 测试步骤_over_test_test_step_2_截图成功保存: D:\Soft\UiAutomationProject\IMG_LOGS\test_SCS_1_over_test_test_step_2_2025_09_18_18_08_20.png
+2025-09-18 18:08:22 - UiAutomationProject - INFO - [test_SCS_1] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-18 18:08:22 - UiAutomationProject - INFO - [test_SCS_1] test_SCS_1 完成
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 测试 1 成功完成
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 测试 2 成功完成
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 测试 3 成功完成
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 测试 4 成功完成
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 测试 5 成功完成
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 并发执行结果: 5/5 个测试成功
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 所有测试都成功完成！
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 进程正常结束，返回码: 0, 结果: True
+2025-09-18 18:08:23 - UiAutomationProject - INFO - pytest stdout: ============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-8.3.4, pluggy-1.6.0 -- C:\Users\YD030076\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Soft\UiAutomationProject
+configfile: pyproject.toml
+plugins: allure-pytest-2.13.5, dash-2.14.2, Faker-33.1.0, asyncio-1.1.0, mock-3.12.0, mock-api-0.1.0, mock-server-0.3.0
+asyncio: mode=Mode.AUTO, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 6 items / 5 deselected / 1 selected
+
+Test_Case/SCS_Web_test_3.py::test_concurrent_independent_browsers PASSED [100%]
+
+================= 1 passed, 5 deselected in 116.66s (0:01:56) =================
+
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 测试结束，当前日志文件行数: 191
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 抓取到测试执行期间的日志内容，行数范围: 12-191
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 详细日志已更新: ID=41
+2025-09-18 18:08:23 - UiAutomationProject - INFO - 详细日志已存储到执行记录 41
+2025-09-18 18:08:24 - UiAutomationProject - INFO - 准备更新项目 47 状态为: passed
+2025-09-18 18:08:24 - UiAutomationProject - INFO - 项目 47 状态已更新为: passed
+2025-09-18 18:08:24 - UiAutomationProject - INFO - 项目 47 已从运行列表中移除
+2025-09-18 18:08:25 - UiAutomationProject - INFO - 执行记录已更新: ID=41, 状态=passed
+2025-09-18 18:09:45 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_over_test_test_step_2_2025_09_18_18_08_20.png
+2025-09-18 18:09:51 - UiAutomationProject - INFO - 请求测试截图: test_SCS_5_over_test_test_step_2_2025_09_18_18_08_04.png
+2025-09-18 18:10:58 - UiAutomationProject - INFO - 请求测试截图: test_SCS_3_step_2_after_2025_09_18_18_07_50.png
+2025-09-18 18:10:59 - UiAutomationProject - INFO - 请求测试截图: test_SCS_3_over_test_test_step_2_2025_09_18_18_07_58.png
+2025-09-18 18:11:09 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_over_test_test_step_2_2025_09_18_18_08_20.png
+2025-09-18 18:11:10 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_step_2_after_2025_09_18_18_08_17.png
+2025-09-18 18:11:12 - UiAutomationProject - INFO - 请求测试截图: test_SCS_2_over_test_test_step_2_2025_09_18_18_08_01.png
+2025-09-18 18:11:15 - UiAutomationProject - INFO - 请求测试截图: test_SCS_3_step_2_after_2025_09_18_18_07_50.png
+2025-09-18 18:11:17 - UiAutomationProject - INFO - 请求测试截图: test_SCS_3_over_test_test_step_2_2025_09_18_18_07_58.png
+2025-09-18 18:11:22 - UiAutomationProject - INFO - 请求测试截图: test_SCS_4_over_test_test_step_2_2025_09_18_18_07_40.png
+2025-09-18 18:11:24 - UiAutomationProject - INFO - 请求测试截图: test_SCS_5_step_2_after_2025_09_18_18_07_54.png
+2025-09-18 18:11:25 - UiAutomationProject - INFO - 请求测试截图: test_SCS_5_over_test_test_step_2_2025_09_18_18_08_04.png
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:12:24 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-18 18:12:24 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-18 18:12:24 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-18 18:12:24 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-18 18:12:24 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-18 18:12:24 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-18 18:12:24 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:12:29 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-18 18:12:29 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-18 18:12:29 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-18 18:12:29 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-18 18:12:29 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-18 18:12:29 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-18 18:12:29 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:12:34 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-18 18:12:34 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-18 18:12:34 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-18 18:12:34 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-18 18:12:34 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-18 18:12:34 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-18 18:12:34 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-18 18:23:11 - UiAutomationProject - INFO - 应用已停止
+2025-09-18 18:30:41 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 🌟 星火自动化测试平台
+2025-09-18 18:30:41 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 📋 功能特性:
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 用户认证系统 (注册/登录/登出)
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 产品版本管理
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 自动化测试管理
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 实时状态监控
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 响应式Web界面
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 多数据库支持 (SQLite/MySQL)
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 🌐 访问地址:
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 主页面: http://localhost:5000
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 登录页面: http://localhost:5000/login
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 注册页面: http://localhost:5000/register
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 🔧 配置管理:
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 数据库切换: python scripts/switch_database.py
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    • 快速启动: python scripts/quick_start.py
+2025-09-18 18:30:41 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:30:41 - UiAutomationProject - INFO - Python版本检查通过: 3.13.7
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 设置MySQL数据库环境变量...
+2025-09-18 18:30:41 - UiAutomationProject - INFO - ✅ MySQL环境变量已设置
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    数据库类型: MySQL
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    主机: localhost:3306
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    用户: root
+2025-09-18 18:30:41 - UiAutomationProject - INFO -    数据库: automation
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 检查依赖包...
+2025-09-18 18:30:41 - UiAutomationProject - WARNING - 发现缺失的依赖包: Flask, Flask-CORS, Werkzeug, opencv-python, Pillow
+2025-09-18 18:30:41 - UiAutomationProject - WARNING - 将继续启动应用。如需安装依赖，请手动执行: pip install -r requirements.txt
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 检查数据库配置...
+2025-09-18 18:30:41 - UiAutomationProject - INFO - MySQL数据库配置: localhost:3306
+2025-09-18 18:30:41 - UiAutomationProject - INFO - 数据库名称: automation
+2025-09-18 18:30:41 - UiAutomationProject - INFO - ✅ MySQL连接成功！版本: 8.0.43
+2025-09-18 18:30:42 - UiAutomationProject - INFO - ✅ 发现 6 个数据库表
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 🎉 准备就绪！正在启动应用...
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 💡 提示: 按 Ctrl+C 停止应用
+2025-09-18 18:30:42 - UiAutomationProject - INFO - ------------------------------------------------------------
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 启动星火自动化测试平台...
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:30:42 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-18 18:30:42 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-18 18:30:42 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-18 18:30:42 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-18 18:30:42 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-18 18:30:42 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-18 18:30:42 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:30:43 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-18 18:30:43 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-18 18:30:43 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-18 18:30:43 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-18 18:30:43 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-18 18:30:43 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-18 18:30:43 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-18 18:46:28 - UiAutomationProject - INFO - 应用已停止
+2025-09-18 18:48:38 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:48:38 - UiAutomationProject - INFO - 🌟 星火自动化测试平台
+2025-09-18 18:48:38 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:48:38 - UiAutomationProject - INFO - 📋 功能特性:
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 用户认证系统 (注册/登录/登出)
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 产品版本管理
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 自动化测试管理
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 实时状态监控
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 响应式Web界面
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 多数据库支持 (SQLite/MySQL)
+2025-09-18 18:48:38 - UiAutomationProject - INFO - 
+2025-09-18 18:48:38 - UiAutomationProject - INFO - 🌐 访问地址:
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 主页面: http://localhost:5000
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 登录页面: http://localhost:5000/login
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 注册页面: http://localhost:5000/register
+2025-09-18 18:48:38 - UiAutomationProject - INFO - 
+2025-09-18 18:48:38 - UiAutomationProject - INFO - 🔧 配置管理:
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 数据库切换: python scripts/switch_database.py
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    • 快速启动: python scripts/quick_start.py
+2025-09-18 18:48:38 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:48:38 - UiAutomationProject - INFO - Python版本检查通过: 3.13.7
+2025-09-18 18:48:38 - UiAutomationProject - INFO - 设置MySQL数据库环境变量...
+2025-09-18 18:48:38 - UiAutomationProject - INFO - ✅ MySQL环境变量已设置
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    数据库类型: MySQL
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    主机: localhost:3306
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    用户: root
+2025-09-18 18:48:38 - UiAutomationProject - INFO -    数据库: automation
+2025-09-18 18:48:38 - UiAutomationProject - INFO - 检查依赖包...
+2025-09-18 18:48:39 - UiAutomationProject - WARNING - 发现缺失的依赖包: Flask, Flask-CORS, Werkzeug, opencv-python, Pillow
+2025-09-18 18:48:39 - UiAutomationProject - WARNING - 将继续启动应用。如需安装依赖，请手动执行: pip install -r requirements.txt
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 检查数据库配置...
+2025-09-18 18:48:39 - UiAutomationProject - INFO - MySQL数据库配置: localhost:3306
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 数据库名称: automation
+2025-09-18 18:48:39 - UiAutomationProject - INFO - ✅ MySQL连接成功！版本: 8.0.43
+2025-09-18 18:48:39 - UiAutomationProject - INFO - ✅ 发现 6 个数据库表
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 🎉 准备就绪！正在启动应用...
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 💡 提示: 按 Ctrl+C 停止应用
+2025-09-18 18:48:39 - UiAutomationProject - INFO - ------------------------------------------------------------
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 启动星火自动化测试平台...
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:48:39 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-18 18:48:39 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-18 18:48:39 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-18 18:48:39 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-18 18:48:39 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-18 18:48:40 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-18 18:48:40 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:48:40 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-18 18:48:40 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-18 18:48:40 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-18 18:48:40 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-18 18:48:40 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-18 18:48:40 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-18 18:48:40 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-18 18:49:05 - UiAutomationProject - INFO - 应用已停止
+2025-09-18 18:54:10 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:54:10 - UiAutomationProject - INFO - 🌟 星火自动化测试平台
+2025-09-18 18:54:10 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:54:10 - UiAutomationProject - INFO - 📋 功能特性:
+2025-09-18 18:54:10 - UiAutomationProject - INFO -    • 用户认证系统 (注册/登录/登出)
+2025-09-18 18:54:10 - UiAutomationProject - INFO -    • 产品版本管理
+2025-09-18 18:54:10 - UiAutomationProject - INFO -    • 自动化测试管理
+2025-09-18 18:54:10 - UiAutomationProject - INFO -    • 实时状态监控
+2025-09-18 18:54:10 - UiAutomationProject - INFO -    • 响应式Web界面
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    • 多数据库支持 (SQLite/MySQL)
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 🌐 访问地址:
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    • 主页面: http://localhost:5000
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    • 登录页面: http://localhost:5000/login
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    • 注册页面: http://localhost:5000/register
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 🔧 配置管理:
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    • 数据库切换: python scripts/switch_database.py
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    • 快速启动: python scripts/quick_start.py
+2025-09-18 18:54:11 - UiAutomationProject - INFO - ============================================================
+2025-09-18 18:54:11 - UiAutomationProject - INFO - Python版本检查通过: 3.13.7
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 设置MySQL数据库环境变量...
+2025-09-18 18:54:11 - UiAutomationProject - INFO - ✅ MySQL环境变量已设置
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    数据库类型: MySQL
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    主机: localhost:3306
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    用户: root
+2025-09-18 18:54:11 - UiAutomationProject - INFO -    数据库: automation
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 检查依赖包...
+2025-09-18 18:54:11 - UiAutomationProject - WARNING - 发现缺失的依赖包: Flask, Flask-CORS, Werkzeug, opencv-python, Pillow
+2025-09-18 18:54:11 - UiAutomationProject - WARNING - 将继续启动应用。如需安装依赖，请手动执行: pip install -r requirements.txt
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 检查数据库配置...
+2025-09-18 18:54:11 - UiAutomationProject - INFO - MySQL数据库配置: localhost:3306
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 数据库名称: automation
+2025-09-18 18:54:11 - UiAutomationProject - INFO - ✅ MySQL连接成功！版本: 8.0.43
+2025-09-18 18:54:11 - UiAutomationProject - INFO - ✅ 发现 6 个数据库表
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 🎉 准备就绪！正在启动应用...
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 💡 提示: 按 Ctrl+C 停止应用
+2025-09-18 18:54:11 - UiAutomationProject - INFO - ------------------------------------------------------------
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 启动星火自动化测试平台...
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:54:11 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-18 18:54:11 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-18 18:54:11 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-18 18:54:11 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-18 18:54:11 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-18 18:54:12 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-18 18:54:12 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-18 18:54:12 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-18 18:54:12 - UiAutomationProject - INFO - ==================================================
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-18 18:54:12 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-18 18:54:12 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-18 18:54:12 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-18 18:54:12 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-18 18:54:12 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-18 18:54:23 - UiAutomationProject - INFO - 应用已停止
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-19 11:49:06 - UiAutomationProject - INFO - ==================================================
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-19 11:49:06 - UiAutomationProject - INFO - ==================================================
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-19 11:49:06 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-19 11:49:06 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-19 11:49:06 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-19 11:49:06 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-19 11:49:06 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-19 11:49:07 - UiAutomationProject - INFO - ==================================================
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-19 11:49:07 - UiAutomationProject - INFO - ==================================================
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-19 11:49:07 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-19 11:49:07 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-19 11:49:07 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-19 11:49:07 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-19 11:49:07 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-19 11:50:26 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_over_test_test_step_2_2025_09_18_18_08_20.png
+2025-09-19 14:10:07 - UiAutomationProject - INFO - ============================================================
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 🌟 星火自动化测试平台
+2025-09-19 14:10:07 - UiAutomationProject - INFO - ============================================================
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 📋 功能特性:
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 用户认证系统 (注册/登录/登出)
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 产品版本管理
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 自动化测试管理
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 实时状态监控
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 响应式Web界面
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 多数据库支持 (SQLite/MySQL)
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 🌐 访问地址:
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 主页面: http://localhost:5000
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 登录页面: http://localhost:5000/login
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 注册页面: http://localhost:5000/register
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 🔧 配置管理:
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 数据库切换: python scripts/switch_database.py
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    • 快速启动: python scripts/quick_start.py
+2025-09-19 14:10:07 - UiAutomationProject - INFO - ============================================================
+2025-09-19 14:10:07 - UiAutomationProject - INFO - Python版本检查通过: 3.13.7
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 设置MySQL数据库环境变量...
+2025-09-19 14:10:07 - UiAutomationProject - INFO - ✅ MySQL环境变量已设置
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    数据库类型: MySQL
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    主机: localhost:3306
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    用户: root
+2025-09-19 14:10:07 - UiAutomationProject - INFO -    数据库: automation
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 检查依赖包...
+2025-09-19 14:10:07 - UiAutomationProject - ERROR - 检查依赖时出错: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 检查数据库配置...
+2025-09-19 14:10:07 - UiAutomationProject - INFO - MySQL数据库配置: localhost:3306
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 数据库名称: automation
+2025-09-19 14:10:07 - UiAutomationProject - INFO - ✅ MySQL连接成功！版本: 8.0.43
+2025-09-19 14:10:07 - UiAutomationProject - INFO - ✅ 发现 6 个数据库表
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 🎉 准备就绪！正在启动应用...
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 💡 提示: 按 Ctrl+C 停止应用
+2025-09-19 14:10:07 - UiAutomationProject - INFO - ------------------------------------------------------------
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 启动星火自动化测试平台...
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-19 14:10:07 - UiAutomationProject - INFO - ==================================================
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-19 14:10:07 - UiAutomationProject - INFO - ==================================================
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-19 14:10:07 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-19 14:10:07 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-19 14:10:07 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-19 14:10:08 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-19 14:10:08 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 监控线程已启动
+2025-09-19 14:10:08 - UiAutomationProject - INFO - ==================================================
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 星火自动化测试平台启动中...
+2025-09-19 14:10:08 - UiAutomationProject - INFO - ==================================================
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 当前数据库类型: mysql
+2025-09-19 14:10:08 - UiAutomationProject - INFO - MySQL配置: localhost:3306
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 正在创建Flask应用...
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 上传目录已创建: static/uploads
+2025-09-19 14:10:08 - UiAutomationProject - INFO - Game_Img目录已创建
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 正在初始化数据库...
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 数据库初始化完成
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 所有蓝图已注册完成
+2025-09-19 14:10:08 - UiAutomationProject - INFO - Flask应用创建完成
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 应用启动成功，监听地址: http://0.0.0.0:5000
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 💡 提示: 建议使用 python scripts/quick_start.py 启动应用
+2025-09-19 14:10:08 - UiAutomationProject - INFO - 按 Ctrl+C 停止应用
+2025-09-19 14:10:08 - UiAutomationProject - INFO - --------------------------------------------------
+2025-09-19 14:20:26 - UiAutomationProject - INFO - 访问登录页面
+2025-09-19 14:20:33 - UiAutomationProject - INFO - 访问根路径（已登录），重定向到主页
+2025-09-19 14:20:56 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_step_2_after_2025_09_18_18_08_17.png
+2025-09-19 14:20:58 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_over_test_test_step_2_2025_09_18_18_08_20.png
+2025-09-19 14:21:03 - UiAutomationProject - INFO - 请求测试截图: test_SCS_5_over_test_test_step_2_2025_09_18_18_08_04.png
+2025-09-19 14:21:13 - UiAutomationProject - INFO - 执行记录已创建: ID=42, 项目ID=47, 状态=running, 流程=多个测试步骤测试跳转标签
+2025-09-19 14:21:13 - UiAutomationProject - INFO - 执行测试文件: SCS_Web_test_3.py
+2025-09-19 14:21:13 - UiAutomationProject - INFO - 测试开始，当前日志文件行数: 612
+2025-09-19 14:21:13 - UiAutomationProject - INFO - 测试文件分析结果: {'test_methods': ['test_SCS_1', 'test_SCS_2', 'test_SCS_3', 'test_SCS_4', 'test_SCS_5', 'test_concurrent_independent_browsers'], 'method_count': 6, 'has_concurrent_method': True, 'should_use_concurrent': True}
+2025-09-19 14:21:13 - UiAutomationProject - INFO - 检测到多个测试方法，执行并发方法: test_concurrent_independent_browsers
+2025-09-19 14:21:13 - UiAutomationProject - INFO - 设置环境变量 PROJECT_ID: 47
+2025-09-19 14:21:13 - UiAutomationProject - INFO - 设置环境变量 - SYSTEM: Web, PRODUCT_TYPE: web, ENVIRONMENT: test
+2025-09-19 14:21:13 - UiAutomationProject - INFO - 执行pytest命令: python -m pytest Test_Case\SCS_Web_test_3.py -k test_concurrent_independent_browsers -v
+2025-09-19 14:21:13 - UiAutomationProject - INFO - 进程已添加到running_tests，项目ID: 47
+2025-09-19 14:21:16 - UiAutomationProject - INFO - 开始并发执行 5 个独立浏览器实例
+2025-09-19 14:21:16 - UiAutomationProject - INFO - ============================================================
+2025-09-19 14:21:16 - UiAutomationProject - INFO - 创建了 5 个独立浏览器实例的测试任务
+2025-09-19 14:21:16 - UiAutomationProject - INFO - 开始并发执行...
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_4
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_4
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_4
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_5
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_5
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_5
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_2
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_2
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_2
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_3
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_3
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_3
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_1
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_1
+2025-09-19 14:21:19 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_1
+2025-09-19 14:21:25 - UiAutomationProject - INFO - [test_SCS_5] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:21:25 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-19 14:21:25 - UiAutomationProject - INFO - [test_SCS_5] 正在打开新标签页: https://www.baidu.com/
+2025-09-19 14:21:25 - UiAutomationProject - INFO - [test_SCS_1] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:21:25 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-19 14:21:25 - UiAutomationProject - INFO - [test_SCS_1] 正在打开新标签页: https://www.baidu.com/
+2025-09-19 14:21:25 - UiAutomationProject - INFO - [test_SCS_3] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:21:25 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-19 14:21:25 - UiAutomationProject - INFO - [test_SCS_3] 正在打开新标签页: https://www.baidu.com/
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_2] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:21:26 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_2] 正在打开新标签页: https://www.baidu.com/
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_4] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:21:26 - UiAutomationProject - INFO - 开始测试步骤1 百度点击百度一下 的操作==============
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_4] 正在打开新标签页: https://www.baidu.com/
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_5] 创建新标签页 (尝试 1/3)
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_1] 创建新标签页 (尝试 1/3)
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_3] 创建新标签页 (尝试 1/3)
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_2] 创建新标签页 (尝试 1/3)
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_4] 创建新标签页 (尝试 1/3)
+2025-09-19 14:21:26 - UiAutomationProject - INFO - [test_SCS_1] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-19 14:21:27 - UiAutomationProject - INFO - [test_SCS_5] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-19 14:21:27 - UiAutomationProject - INFO - [test_SCS_2] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-19 14:21:27 - UiAutomationProject - INFO - [test_SCS_3] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-19 14:21:27 - UiAutomationProject - INFO - [test_SCS_4] 新标签页导航到: https://www.baidu.com/ (尝试 1/3 成功)
+2025-09-19 14:21:28 - UiAutomationProject - INFO - [test_SCS_1] 新标签页页面加载完成
+2025-09-19 14:21:28 - UiAutomationProject - INFO - [test_SCS_2] 新标签页页面加载完成
+2025-09-19 14:21:29 - UiAutomationProject - INFO - [test_SCS_4] 新标签页页面加载完成
+2025-09-19 14:21:29 - UiAutomationProject - INFO - [test_SCS_1] 已切换到新标签页: https://www.baidu.com/
+2025-09-19 14:21:29 - UiAutomationProject - INFO - [test_SCS_2] 已切换到新标签页: https://www.baidu.com/
+2025-09-19 14:21:29 - UiAutomationProject - INFO - [test_SCS_1] 当前共有 2 个标签页
+2025-09-19 14:21:30 - UiAutomationProject - INFO - [test_SCS_4] 已切换到新标签页: https://www.baidu.com/
+2025-09-19 14:21:30 - UiAutomationProject - INFO - [test_SCS_3] 新标签页页面加载完成
+2025-09-19 14:21:30 - UiAutomationProject - INFO - [test_SCS_2] 当前共有 2 个标签页
+2025-09-19 14:21:31 - UiAutomationProject - INFO - [test_SCS_3] 已切换到新标签页: https://www.baidu.com/
+2025-09-19 14:21:31 - UiAutomationProject - INFO - [test_SCS_1] URL是否存在断言成功: https://www.baidu.com/
+2025-09-19 14:21:34 - UiAutomationProject - INFO - [test_SCS_5] 新标签页页面加载完成
+2025-09-19 14:21:34 - UiAutomationProject - INFO - [test_SCS_2] URL是否存在断言成功: https://www.baidu.com/
+2025-09-19 14:21:37 - UiAutomationProject - INFO - [test_SCS_4] 当前共有 2 个标签页
+2025-09-19 14:21:38 - UiAutomationProject - INFO - [test_SCS_1] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-19 14:21:40 - UiAutomationProject - INFO - [test_SCS_1] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-19 14:21:40 - UiAutomationProject - INFO - [test_SCS_5] 已切换到新标签页: https://www.baidu.com/
+2025-09-19 14:21:40 - UiAutomationProject - INFO - [test_SCS_3] 当前共有 2 个标签页
+2025-09-19 14:21:41 - UiAutomationProject - INFO - [test_SCS_2] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-19 14:21:43 - UiAutomationProject - INFO - [test_SCS_2] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-19 14:21:43 - UiAutomationProject - INFO - [test_SCS_4] URL是否存在断言成功: https://www.baidu.com/
+2025-09-19 14:21:46 - UiAutomationProject - INFO - [test_SCS_3] URL是否存在断言成功: https://www.baidu.com/
+2025-09-19 14:21:51 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-19 14:21:51 - UiAutomationProject - INFO - [test_SCS_1] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:21:53 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-19 14:21:53 - UiAutomationProject - INFO - [test_SCS_2] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:21:53 - UiAutomationProject - INFO - [test_SCS_5] 当前共有 2 个标签页
+2025-09-19 14:21:54 - UiAutomationProject - INFO - [test_SCS_4] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-19 14:21:56 - UiAutomationProject - INFO - [test_SCS_4] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-19 14:21:56 - UiAutomationProject - INFO - [test_SCS_3] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-19 14:21:58 - UiAutomationProject - INFO - [test_SCS_3] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-19 14:21:58 - UiAutomationProject - INFO - [test_SCS_1] 创建新标签页 (尝试 1/3)
+2025-09-19 14:21:58 - UiAutomationProject - INFO - [test_SCS_5] URL是否存在断言成功: https://www.baidu.com/
+2025-09-19 14:22:03 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-19 14:22:03 - UiAutomationProject - INFO - [test_SCS_4] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:03 - UiAutomationProject - INFO - [test_SCS_2] 创建新标签页 (尝试 1/3)
+2025-09-19 14:22:05 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-19 14:22:05 - UiAutomationProject - INFO - [test_SCS_3] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:05 - UiAutomationProject - INFO - [test_SCS_5] 元素是否存在断言成功: //*[@id='chat-submit-button']
+2025-09-19 14:22:07 - UiAutomationProject - INFO - [test_SCS_5] 执行第1次操作: click on //*[@id='chat-submit-button']
+2025-09-19 14:22:07 - UiAutomationProject - INFO - [test_SCS_4] 创建新标签页 (尝试 1/3)
+2025-09-19 14:22:07 - UiAutomationProject - INFO - [test_SCS_3] 创建新标签页 (尝试 1/3)
+2025-09-19 14:22:07 - UiAutomationProject - INFO - [test_SCS_1] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-19 14:22:07 - UiAutomationProject - INFO - [test_SCS_1] 新标签页页面加载完成
+2025-09-19 14:22:07 - UiAutomationProject - INFO - [test_SCS_2] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-19 14:22:07 - UiAutomationProject - INFO - [test_SCS_2] 新标签页页面加载完成
+2025-09-19 14:22:09 - UiAutomationProject - INFO - 开始测试步骤2 学习网站点击博客园 的操作==============
+2025-09-19 14:22:09 - UiAutomationProject - INFO - [test_SCS_5] 正在打开新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:09 - UiAutomationProject - INFO - [test_SCS_1] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:09 - UiAutomationProject - INFO - [test_SCS_2] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:09 - UiAutomationProject - INFO - [test_SCS_3] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-19 14:22:09 - UiAutomationProject - INFO - [test_SCS_4] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-19 14:22:09 - UiAutomationProject - INFO - [test_SCS_4] 新标签页页面加载完成
+2025-09-19 14:22:09 - UiAutomationProject - INFO - [test_SCS_1] 当前共有 3 个标签页
+2025-09-19 14:22:10 - UiAutomationProject - INFO - [test_SCS_2] 当前共有 3 个标签页
+2025-09-19 14:22:11 - UiAutomationProject - INFO - [test_SCS_4] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:11 - UiAutomationProject - INFO - [test_SCS_5] 创建新标签页 (尝试 1/3)
+2025-09-19 14:22:11 - UiAutomationProject - INFO - [test_SCS_3] 新标签页页面加载完成
+2025-09-19 14:22:11 - UiAutomationProject - INFO - [test_SCS_1] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:14 - UiAutomationProject - INFO - [test_SCS_3] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:14 - UiAutomationProject - INFO - [test_SCS_2] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:17 - UiAutomationProject - INFO - [test_SCS_1] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-19 14:22:19 - UiAutomationProject - INFO - [test_SCS_1] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-19 14:22:19 - UiAutomationProject - INFO - [test_SCS_2] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-19 14:22:21 - UiAutomationProject - INFO - [test_SCS_2] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-19 14:22:21 - UiAutomationProject - INFO - [test_SCS_5] 新标签页导航到: https://www.cnblogs.com/yoyoketang/p/17197319.html (尝试 1/3 成功)
+2025-09-19 14:22:21 - UiAutomationProject - INFO - [test_SCS_4] 当前共有 3 个标签页
+2025-09-19 14:22:22 - UiAutomationProject - INFO - [test_SCS_5] 新标签页页面加载完成
+2025-09-19 14:22:22 - UiAutomationProject - INFO - [test_SCS_3] 当前共有 3 个标签页
+2025-09-19 14:22:23 - UiAutomationProject - INFO - [test_SCS_5] 已切换到新标签页: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:25 - UiAutomationProject - INFO - [test_SCS_4] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:30 - UiAutomationProject - INFO - [test_SCS_3] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:33 - UiAutomationProject - INFO - [test_SCS_4] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-19 14:22:35 - UiAutomationProject - INFO - [test_SCS_4] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-19 14:22:35 - UiAutomationProject - INFO - [test_SCS_1] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_1_step_2_after_2025_09_19_14_22_25.png
+2025-09-19 14:22:35 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:22:38 - UiAutomationProject - INFO - [test_SCS_3] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-19 14:22:40 - UiAutomationProject - INFO - [test_SCS_3] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-19 14:22:40 - UiAutomationProject - INFO - [test_SCS_2] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_2_step_2_after_2025_09_19_14_22_30.png
+2025-09-19 14:22:40 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:22:43 - UiAutomationProject - INFO - [test_SCS_5] 当前共有 3 个标签页
+2025-09-19 14:22:44 - UiAutomationProject - INFO - [test_SCS_1] 测试步骤_over_test_test_step_2_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_1_over_test_test_step_2_2025_09_19_14_22_38.png
+2025-09-19 14:22:46 - UiAutomationProject - INFO - [test_SCS_1] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-19 14:22:46 - UiAutomationProject - INFO - [test_SCS_1] test_SCS_1 完成
+2025-09-19 14:22:48 - UiAutomationProject - INFO - [test_SCS_2] 测试步骤_over_test_test_step_2_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_2_over_test_test_step_2_2025_09_19_14_22_43.png
+2025-09-19 14:22:50 - UiAutomationProject - INFO - [test_SCS_2] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-19 14:22:50 - UiAutomationProject - INFO - [test_SCS_2] test_SCS_2 完成
+2025-09-19 14:22:52 - UiAutomationProject - INFO - [test_SCS_5] URL是否存在断言成功: https://www.cnblogs.com/yoyoketang/p/17197319.html
+2025-09-19 14:22:55 - UiAutomationProject - INFO - [test_SCS_3] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_3_step_2_after_2025_09_19_14_22_52.png
+2025-09-19 14:22:55 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:22:58 - UiAutomationProject - INFO - [test_SCS_4] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_4_step_2_after_2025_09_19_14_22_48.png
+2025-09-19 14:22:58 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:23:01 - UiAutomationProject - INFO - [test_SCS_5] 元素是否存在断言成功: //*[@id='blog_nav_sitehome']
+2025-09-19 14:23:03 - UiAutomationProject - INFO - [test_SCS_5] 执行第1次操作: click on //*[@id='blog_nav_sitehome']
+2025-09-19 14:23:04 - UiAutomationProject - INFO - [test_SCS_3] 测试步骤_over_test_test_step_2_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_3_over_test_test_step_2_2025_09_19_14_22_58.png
+2025-09-19 14:23:06 - UiAutomationProject - INFO - [test_SCS_3] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-19 14:23:06 - UiAutomationProject - INFO - [test_SCS_3] test_SCS_3 完成
+2025-09-19 14:23:06 - UiAutomationProject - INFO - [test_SCS_4] 测试步骤_over_test_test_step_2_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_4_over_test_test_step_2_2025_09_19_14_23_01.png
+2025-09-19 14:23:08 - UiAutomationProject - INFO - [test_SCS_4] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-19 14:23:08 - UiAutomationProject - INFO - [test_SCS_4] test_SCS_4 完成
+2025-09-19 14:23:10 - UiAutomationProject - INFO - [test_SCS_5] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_5_step_2_after_2025_09_19_14_23_10.png
+2025-09-19 14:23:10 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:23:13 - UiAutomationProject - INFO - [test_SCS_5] 测试步骤_over_test_test_step_2_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_5_over_test_test_step_2_2025_09_19_14_23_13.png
+2025-09-19 14:23:15 - UiAutomationProject - INFO - [test_SCS_5] 图片识别统计: 截图识别成功 0 次, pyautogui成功 0 次, 总成功率 0.00%
+2025-09-19 14:23:15 - UiAutomationProject - INFO - [test_SCS_5] test_SCS_5 完成
+2025-09-19 14:23:15 - UiAutomationProject - INFO - 测试 1 成功完成
+2025-09-19 14:23:15 - UiAutomationProject - INFO - 测试 2 成功完成
+2025-09-19 14:23:15 - UiAutomationProject - INFO - 测试 3 成功完成
+2025-09-19 14:23:15 - UiAutomationProject - INFO - 测试 4 成功完成
+2025-09-19 14:23:15 - UiAutomationProject - INFO - 测试 5 成功完成
+2025-09-19 14:23:15 - UiAutomationProject - INFO - 并发执行结果: 5/5 个测试成功
+2025-09-19 14:23:15 - UiAutomationProject - INFO - 所有测试都成功完成！
+2025-09-19 14:23:16 - UiAutomationProject - INFO - 进程正常结束，返回码: 0, 结果: True
+2025-09-19 14:23:16 - UiAutomationProject - INFO - pytest stdout: ============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-8.3.4, pluggy-1.6.0 -- C:\Users\YD030076\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\UiAutomationProject
+configfile: pyproject.toml
+plugins: allure-pytest-2.13.5, dash-2.14.2, Faker-33.1.0, asyncio-1.1.0, mock-3.12.0, mock-api-0.1.0, mock-server-0.3.0
+asyncio: mode=Mode.AUTO, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 6 items / 5 deselected / 1 selected
+
+Test_Case/SCS_Web_test_3.py::test_concurrent_independent_browsers PASSED [100%]
+
+================= 1 passed, 5 deselected in 119.52s (0:01:59) =================
+
+2025-09-19 14:23:16 - UiAutomationProject - INFO - 测试结束，当前日志文件行数: 789
+2025-09-19 14:23:16 - UiAutomationProject - INFO - 抓取到测试执行期间的日志内容，行数范围: 613-789
+2025-09-19 14:23:16 - UiAutomationProject - INFO - 准备更新项目 47 状态为: passed
+2025-09-19 14:23:16 - UiAutomationProject - INFO - 项目 47 状态已更新为: passed
+2025-09-19 14:23:16 - UiAutomationProject - INFO - 详细日志已更新: ID=42
+2025-09-19 14:23:16 - UiAutomationProject - INFO - 项目 47 已从运行列表中移除
+2025-09-19 14:23:16 - UiAutomationProject - INFO - 详细日志已存储到执行记录 42
+2025-09-19 14:23:18 - UiAutomationProject - INFO - 执行记录已更新: ID=42, 状态=passed
+2025-09-19 14:23:25 - UiAutomationProject - INFO - 执行记录已创建: ID=43, 项目ID=44, 状态=running, 流程=Elephant-进入游戏
+2025-09-19 14:23:25 - UiAutomationProject - INFO - 执行测试文件: SCS_Web_test.py
+2025-09-19 14:23:25 - UiAutomationProject - INFO - 测试开始，当前日志文件行数: 799
+2025-09-19 14:23:25 - UiAutomationProject - INFO - 测试文件分析结果: {'test_methods': ['test_SCS_1', 'test_SCS_2', 'test_SCS_3', 'test_SCS_4', 'test_SCS_5', 'test_concurrent_independent_browsers'], 'method_count': 6, 'has_concurrent_method': True, 'should_use_concurrent': True}
+2025-09-19 14:23:25 - UiAutomationProject - INFO - 检测到多个测试方法，执行并发方法: test_concurrent_independent_browsers
+2025-09-19 14:23:25 - UiAutomationProject - INFO - 设置环境变量 PROJECT_ID: 44
+2025-09-19 14:23:25 - UiAutomationProject - INFO - 设置环境变量 - SYSTEM: Web, PRODUCT_TYPE: web, ENVIRONMENT: test
+2025-09-19 14:23:25 - UiAutomationProject - INFO - 执行pytest命令: python -m pytest Test_Case\SCS_Web_test.py -k test_concurrent_independent_browsers -v
+2025-09-19 14:23:25 - UiAutomationProject - INFO - 进程已添加到running_tests，项目ID: 44
+2025-09-19 14:23:28 - UiAutomationProject - INFO - 开始并发执行 5 个独立浏览器实例
+2025-09-19 14:23:28 - UiAutomationProject - INFO - ============================================================
+2025-09-19 14:23:28 - UiAutomationProject - INFO - 创建了 5 个独立浏览器实例的测试任务
+2025-09-19 14:23:28 - UiAutomationProject - INFO - 开始并发执行...
+2025-09-19 14:23:29 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_3
+2025-09-19 14:23:29 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_3
+2025-09-19 14:23:29 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_3
+2025-09-19 14:23:29 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_2
+2025-09-19 14:23:29 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_2
+2025-09-19 14:23:29 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_2
+2025-09-19 14:23:30 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_5
+2025-09-19 14:23:30 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_5
+2025-09-19 14:23:30 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_5
+2025-09-19 14:23:30 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_1
+2025-09-19 14:23:30 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_1
+2025-09-19 14:23:30 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_1
+2025-09-19 14:23:30 - UiAutomationProject - INFO - 创建ImageRecognition实例: test_SCS_4
+2025-09-19 14:23:30 - UiAutomationProject - INFO - 创建HybridImageManager实例: test_SCS_4
+2025-09-19 14:23:30 - UiAutomationProject - INFO - 创建UIOperations实例: test_SCS_4
+2025-09-19 14:23:34 - UiAutomationProject - INFO - [test_SCS_4] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:23:34 - UiAutomationProject - INFO - 开始测试步骤1 点击开始按钮 的操作==============
+2025-09-19 14:23:37 - UiAutomationProject - INFO - [test_SCS_3] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:23:37 - UiAutomationProject - INFO - 开始测试步骤1 点击开始按钮 的操作==============
+2025-09-19 14:23:40 - UiAutomationProject - INFO - [test_SCS_2] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:23:40 - UiAutomationProject - INFO - 开始测试步骤1 点击开始按钮 的操作==============
+2025-09-19 14:23:43 - UiAutomationProject - INFO - [test_SCS_1] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:23:43 - UiAutomationProject - INFO - 开始测试步骤1 点击开始按钮 的操作==============
+2025-09-19 14:23:46 - UiAutomationProject - INFO - [test_SCS_5] 导航到: https://letsgogogold.com/ (尝试 1/3 成功), 超时时间: 90000ms
+2025-09-19 14:23:46 - UiAutomationProject - INFO - 开始测试步骤1 点击开始按钮 的操作==============
+2025-09-19 14:23:49 - UiAutomationProject - INFO - [test_SCS_4] 元素是否存在断言成功: //*[@type='button' and text()='START']
+2025-09-19 14:23:50 - UiAutomationProject - INFO - [test_SCS_4] 执行第1次操作: click on //*[@type='button' and text()='START']
+2025-09-19 14:23:50 - UiAutomationProject - INFO - [test_SCS_3] 元素是否存在断言成功: //*[@type='button' and text()='START']
+2025-09-19 14:23:51 - UiAutomationProject - INFO - [test_SCS_3] 执行第1次操作: click on //*[@type='button' and text()='START']
+2025-09-19 14:23:51 - UiAutomationProject - INFO - [test_SCS_1] 元素是否存在断言成功: //*[@type='button' and text()='START']
+2025-09-19 14:23:52 - UiAutomationProject - INFO - [test_SCS_1] 执行第1次操作: click on //*[@type='button' and text()='START']
+2025-09-19 14:23:52 - UiAutomationProject - INFO - [test_SCS_2] 元素是否存在断言成功: //*[@type='button' and text()='START']
+2025-09-19 14:23:53 - UiAutomationProject - INFO - [test_SCS_2] 执行第1次操作: click on //*[@type='button' and text()='START']
+2025-09-19 14:23:53 - UiAutomationProject - INFO - [test_SCS_5] 元素是否存在断言成功: //*[@type='button' and text()='START']
+2025-09-19 14:23:54 - UiAutomationProject - INFO - [test_SCS_5] 执行第1次操作: click on //*[@type='button' and text()='START']
+2025-09-19 14:24:04 - UiAutomationProject - INFO - [test_SCS_4] 测试步骤_step_1_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_4_step_1_after_2025_09_19_14_23_56.png
+2025-09-19 14:24:04 - UiAutomationProject - INFO - 步骤1后截图完成
+2025-09-19 14:24:04 - UiAutomationProject - INFO - 开始测试步骤2 点击同意按钮 的操作==============
+2025-09-19 14:24:07 - UiAutomationProject - INFO - [test_SCS_3] 测试步骤_step_1_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_3_step_1_after_2025_09_19_14_23_58.png
+2025-09-19 14:24:07 - UiAutomationProject - INFO - 步骤1后截图完成
+2025-09-19 14:24:07 - UiAutomationProject - INFO - 开始测试步骤2 点击同意按钮 的操作==============
+2025-09-19 14:24:10 - UiAutomationProject - INFO - [test_SCS_1] 测试步骤_step_1_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_1_step_1_after_2025_09_19_14_24_00.png
+2025-09-19 14:24:10 - UiAutomationProject - INFO - 步骤1后截图完成
+2025-09-19 14:24:10 - UiAutomationProject - INFO - 开始测试步骤2 点击同意按钮 的操作==============
+2025-09-19 14:24:13 - UiAutomationProject - INFO - [test_SCS_4] 元素是否存在断言成功: //*[text()='Accept']
+2025-09-19 14:24:13 - UiAutomationProject - INFO - [test_SCS_3] 元素是否存在断言成功: //*[text()='Accept']
+2025-09-19 14:24:13 - UiAutomationProject - INFO - [test_SCS_2] 测试步骤_step_1_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_2_step_1_after_2025_09_19_14_24_02.png
+2025-09-19 14:24:13 - UiAutomationProject - INFO - 步骤1后截图完成
+2025-09-19 14:24:13 - UiAutomationProject - INFO - 开始测试步骤2 点击同意按钮 的操作==============
+2025-09-19 14:24:16 - UiAutomationProject - INFO - [test_SCS_5] 测试步骤_step_1_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_5_step_1_after_2025_09_19_14_24_04.png
+2025-09-19 14:24:16 - UiAutomationProject - INFO - 步骤1后截图完成
+2025-09-19 14:24:16 - UiAutomationProject - INFO - 开始测试步骤2 点击同意按钮 的操作==============
+2025-09-19 14:24:19 - UiAutomationProject - INFO - [test_SCS_1] 元素是否存在断言成功: //*[text()='Accept']
+2025-09-19 14:24:19 - UiAutomationProject - INFO - [test_SCS_4] 元素可见断言成功: //*[text()='Accept']
+2025-09-19 14:24:20 - UiAutomationProject - INFO - [test_SCS_4] 执行第1次操作: click on //*[text()='Accept']
+2025-09-19 14:24:20 - UiAutomationProject - INFO - [test_SCS_3] 元素可见断言成功: //*[text()='Accept']
+2025-09-19 14:24:21 - UiAutomationProject - INFO - [test_SCS_3] 执行第1次操作: click on //*[text()='Accept']
+2025-09-19 14:24:21 - UiAutomationProject - INFO - [test_SCS_2] 元素是否存在断言成功: //*[text()='Accept']
+2025-09-19 14:24:21 - UiAutomationProject - INFO - [test_SCS_5] 元素是否存在断言成功: //*[text()='Accept']
+2025-09-19 14:24:21 - UiAutomationProject - INFO - [test_SCS_1] 元素可见断言成功: //*[text()='Accept']
+2025-09-19 14:24:22 - UiAutomationProject - INFO - [test_SCS_1] 执行第1次操作: click on //*[text()='Accept']
+2025-09-19 14:24:24 - UiAutomationProject - INFO - [test_SCS_2] 元素可见断言成功: //*[text()='Accept']
+2025-09-19 14:24:25 - UiAutomationProject - INFO - [test_SCS_2] 执行第1次操作: click on //*[text()='Accept']
+2025-09-19 14:24:25 - UiAutomationProject - INFO - [test_SCS_5] 元素可见断言成功: //*[text()='Accept']
+2025-09-19 14:24:26 - UiAutomationProject - INFO - [test_SCS_5] 执行第1次操作: click on //*[text()='Accept']
+2025-09-19 14:24:34 - UiAutomationProject - INFO - [test_SCS_4] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_4_step_2_after_2025_09_19_14_24_24.png
+2025-09-19 14:24:34 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:24:34 - UiAutomationProject - INFO - 开始测试步骤3 点击图片，进入游戏 的操作==============
+2025-09-19 14:24:35 - UiAutomationProject - INFO - [test_SCS_3] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_3_step_2_after_2025_09_19_14_24_28.png
+2025-09-19 14:24:35 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:24:35 - UiAutomationProject - INFO - 开始测试步骤3 点击图片，进入游戏 的操作==============
+2025-09-19 14:24:36 - UiAutomationProject - INFO - [test_SCS_1] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_1_step_2_after_2025_09_19_14_24_30.png
+2025-09-19 14:24:36 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:24:36 - UiAutomationProject - INFO - 开始测试步骤3 点击图片，进入游戏 的操作==============
+2025-09-19 14:24:37 - UiAutomationProject - INFO - [test_SCS_2] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_2_step_2_after_2025_09_19_14_24_32.png
+2025-09-19 14:24:37 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:24:37 - UiAutomationProject - INFO - 开始测试步骤3 点击图片，进入游戏 的操作==============
+2025-09-19 14:24:41 - UiAutomationProject - INFO - [test_SCS_4] 第1次尝试查找并点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:41 - UiAutomationProject - INFO - [test_SCS_4] 第1次混合图片识别尝试: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:41 - UiAutomationProject - INFO - [test_SCS_4] 第1次尝试查找图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:41 - UiAutomationProject - INFO - [test_SCS_4] 获取新的页面截图
+2025-09-19 14:24:44 - UiAutomationProject - INFO - [test_SCS_3] 第1次尝试查找并点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:44 - UiAutomationProject - INFO - [test_SCS_3] 第1次混合图片识别尝试: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:44 - UiAutomationProject - INFO - [test_SCS_3] 第1次尝试查找图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:44 - UiAutomationProject - INFO - [test_SCS_3] 获取新的页面截图
+2025-09-19 14:24:47 - UiAutomationProject - INFO - [test_SCS_1] 第1次尝试查找并点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:47 - UiAutomationProject - INFO - [test_SCS_1] 第1次混合图片识别尝试: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:47 - UiAutomationProject - INFO - [test_SCS_1] 第1次尝试查找图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:47 - UiAutomationProject - INFO - [test_SCS_1] 获取新的页面截图
+2025-09-19 14:24:50 - UiAutomationProject - INFO - [test_SCS_2] 第1次尝试查找并点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:50 - UiAutomationProject - INFO - [test_SCS_2] 第1次混合图片识别尝试: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:50 - UiAutomationProject - INFO - [test_SCS_2] 第1次尝试查找图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:50 - UiAutomationProject - INFO - [test_SCS_2] 获取新的页面截图
+2025-09-19 14:24:50 - UiAutomationProject - INFO - [test_SCS_5] 测试步骤_step_2_after_截图成功保存: D:\UiAutomationProject\IMG_LOGS\test_SCS_5_step_2_after_2025_09_19_14_24_34.png
+2025-09-19 14:24:50 - UiAutomationProject - INFO - 步骤2后截图完成
+2025-09-19 14:24:50 - UiAutomationProject - INFO - 开始测试步骤3 点击图片，进入游戏 的操作==============
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 截图已缓存
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 加载新模板: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板已缓存: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.5
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.4
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.3
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.5 (缩放: 0.9)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.4 (缩放: 0.9)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.3 (缩放: 0.9)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.5 (缩放: 0.8)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.4 (缩放: 0.8)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.3 (缩放: 0.8)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.5 (缩放: 0.7)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.4 (缩放: 0.7)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.3 (缩放: 0.7)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 模板匹配成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.549, 阈值: 0.5 (缩放: 0.6)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 图片查找成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 截图识别成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_4] 准备点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 截图已缓存
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 加载新模板: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板已缓存: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.5
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.4
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.3
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.5 (缩放: 0.9)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.4 (缩放: 0.9)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.3 (缩放: 0.9)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.5 (缩放: 0.8)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.4 (缩放: 0.8)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.3 (缩放: 0.8)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.5 (缩放: 0.7)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.4 (缩放: 0.7)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.3 (缩放: 0.7)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 模板匹配成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.549, 阈值: 0.5 (缩放: 0.6)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 图片查找成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 截图识别成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_3] 准备点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 截图已缓存
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 加载新模板: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板已缓存: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.5
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.4
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.3
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.5 (缩放: 0.9)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.4 (缩放: 0.9)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.3 (缩放: 0.9)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.5 (缩放: 0.8)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.4 (缩放: 0.8)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.3 (缩放: 0.8)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.5 (缩放: 0.7)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.4 (缩放: 0.7)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.3 (缩放: 0.7)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 模板匹配成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.549, 阈值: 0.5 (缩放: 0.6)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 图片查找成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 截图识别成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:52 - UiAutomationProject - INFO - [test_SCS_1] 准备点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:55 - UiAutomationProject - INFO - [test_SCS_5] 第1次尝试查找并点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:55 - UiAutomationProject - INFO - [test_SCS_5] 第1次混合图片识别尝试: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:55 - UiAutomationProject - INFO - [test_SCS_5] 第1次尝试查找图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:55 - UiAutomationProject - INFO - [test_SCS_5] 获取新的页面截图
+2025-09-19 14:24:55 - UiAutomationProject - INFO - [test_SCS_2] 截图已缓存
+2025-09-19 14:24:55 - UiAutomationProject - INFO - [test_SCS_2] 加载新模板: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:55 - UiAutomationProject - INFO - [test_SCS_2] 模板已缓存: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:55 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.5
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.4
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.3
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.5 (缩放: 0.9)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.4 (缩放: 0.9)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.3 (缩放: 0.9)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.5 (缩放: 0.8)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.4 (缩放: 0.8)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.3 (缩放: 0.8)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.5 (缩放: 0.7)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.4 (缩放: 0.7)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.3 (缩放: 0.7)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 模板匹配成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.549, 阈值: 0.5 (缩放: 0.6)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 图片查找成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 截图识别成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] 准备点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_4] Playwright点击完成: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_3] Playwright点击完成: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_1] Playwright点击完成: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 截图已缓存
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 加载新模板: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板已缓存: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.5
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.4
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.205, 阈值: 0.3
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.5 (缩放: 0.9)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.4 (缩放: 0.9)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.186, 阈值: 0.3 (缩放: 0.9)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.5 (缩放: 0.8)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.4 (缩放: 0.8)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.198, 阈值: 0.3 (缩放: 0.8)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.5 (缩放: 0.7)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.4 (缩放: 0.7)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配失败: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.278, 阈值: 0.3 (缩放: 0.7)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 模板匹配成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 置信度: 0.549, 阈值: 0.5 (缩放: 0.6)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 图片查找成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 截图识别成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] 准备点击图片: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_2] Playwright点击完成: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_5] Playwright点击完成: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_4] 图片点击成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:24:56 - UiAutomationProject - INFO - [test_SCS_4] 第1次操作完成
+2025-09-19 14:25:00 - UiAutomationProject - INFO - [test_SCS_3] 图片点击成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:25:00 - UiAutomationProject - INFO - [test_SCS_3] 第1次操作完成
+2025-09-19 14:25:04 - UiAutomationProject - INFO - [test_SCS_1] 图片点击成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:25:04 - UiAutomationProject - INFO - [test_SCS_1] 第1次操作完成
+2025-09-19 14:25:08 - UiAutomationProject - INFO - [test_SCS_2] 图片点击成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:25:08 - UiAutomationProject - INFO - [test_SCS_2] 第1次操作完成
+2025-09-19 14:25:12 - UiAutomationProject - INFO - [test_SCS_5] 图片点击成功: Game_Img/1758183024_Snipaste_2025-09-01_16-31-13.png, 位置: (307, 295)
+2025-09-19 14:25:12 - UiAutomationProject - INFO - [test_SCS_5] 第1次操作完成
+2025-09-19 14:25:16 - UiAutomationProject - INFO - [test_SCS_4] 测试步骤_test_step_3_截图成功保存: D:\UiAutomationProject\IMG_LOGS\over_test_test_SCS_4_test_step_3_2025_09_19_14_25_00.png
+2025-09-19 14:25:18 - UiAutomationProject - INFO - [test_SCS_4] 图片识别统计: 截图识别成功 1 次, pyautogui成功 0 次, 总成功率 100.00%
+2025-09-19 14:25:18 - UiAutomationProject - INFO - [test_SCS_4] test_SCS_4 完成
+2025-09-19 14:25:18 - UiAutomationProject - INFO - [test_SCS_1] 测试步骤_test_step_3_截图成功保存: D:\UiAutomationProject\IMG_LOGS\over_test_test_SCS_1_test_step_3_2025_09_19_14_25_08.png
+2025-09-19 14:25:20 - UiAutomationProject - INFO - [test_SCS_1] 图片识别统计: 截图识别成功 1 次, pyautogui成功 0 次, 总成功率 100.00%
+2025-09-19 14:25:20 - UiAutomationProject - INFO - [test_SCS_1] test_SCS_1 完成
+2025-09-19 14:25:20 - UiAutomationProject - INFO - [test_SCS_3] 测试步骤_test_step_3_截图成功保存: D:\UiAutomationProject\IMG_LOGS\over_test_test_SCS_3_test_step_3_2025_09_19_14_25_04.png
+2025-09-19 14:25:22 - UiAutomationProject - INFO - [test_SCS_3] 图片识别统计: 截图识别成功 1 次, pyautogui成功 0 次, 总成功率 100.00%
+2025-09-19 14:25:22 - UiAutomationProject - INFO - [test_SCS_3] test_SCS_3 完成
+2025-09-19 14:25:22 - UiAutomationProject - INFO - [test_SCS_2] 测试步骤_test_step_3_截图成功保存: D:\UiAutomationProject\IMG_LOGS\over_test_test_SCS_2_test_step_3_2025_09_19_14_25_12.png
+2025-09-19 14:25:24 - UiAutomationProject - INFO - [test_SCS_2] 图片识别统计: 截图识别成功 1 次, pyautogui成功 0 次, 总成功率 100.00%
+2025-09-19 14:25:24 - UiAutomationProject - INFO - [test_SCS_2] test_SCS_2 完成
+2025-09-19 14:25:24 - UiAutomationProject - INFO - [test_SCS_5] 测试步骤_test_step_3_截图成功保存: D:\UiAutomationProject\IMG_LOGS\over_test_test_SCS_5_test_step_3_2025_09_19_14_25_16.png
+2025-09-19 14:25:26 - UiAutomationProject - INFO - [test_SCS_5] 图片识别统计: 截图识别成功 1 次, pyautogui成功 0 次, 总成功率 100.00%
+2025-09-19 14:25:26 - UiAutomationProject - INFO - [test_SCS_5] test_SCS_5 完成
+2025-09-19 14:25:27 - UiAutomationProject - INFO - 测试 1 成功完成
+2025-09-19 14:25:27 - UiAutomationProject - INFO - 测试 2 成功完成
+2025-09-19 14:25:27 - UiAutomationProject - INFO - 测试 3 成功完成
+2025-09-19 14:25:27 - UiAutomationProject - INFO - 测试 4 成功完成
+2025-09-19 14:25:27 - UiAutomationProject - INFO - 测试 5 成功完成
+2025-09-19 14:25:27 - UiAutomationProject - INFO - 并发执行结果: 5/5 个测试成功
+2025-09-19 14:25:27 - UiAutomationProject - INFO - 所有测试都成功完成！
+2025-09-19 14:25:28 - UiAutomationProject - INFO - 准备更新项目 44 状态为: passed
+2025-09-19 14:25:28 - UiAutomationProject - INFO - 进程正常结束，返回码: 0, 结果: True
+2025-09-19 14:25:28 - UiAutomationProject - INFO - 项目 44 状态已更新为: passed
+2025-09-19 14:25:28 - UiAutomationProject - INFO - pytest stdout: ============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-8.3.4, pluggy-1.6.0 -- C:\Users\YD030076\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\UiAutomationProject
+configfile: pyproject.toml
+plugins: allure-pytest-2.13.5, dash-2.14.2, Faker-33.1.0, asyncio-1.1.0, mock-3.12.0, mock-api-0.1.0, mock-server-0.3.0
+asyncio: mode=Mode.AUTO, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 6 items / 5 deselected / 1 selected
+
+Test_Case/SCS_Web_test.py::test_concurrent_independent_browsers PASSED   [100%]
+
+================= 1 passed, 5 deselected in 119.87s (0:01:59) =================
+
+2025-09-19 14:25:28 - UiAutomationProject - INFO - 项目 44 已从运行列表中移除
+2025-09-19 14:25:28 - UiAutomationProject - INFO - 从数据库获取到最近的执行记录ID: 43
+2025-09-19 14:25:28 - UiAutomationProject - INFO - 测试结束，当前日志文件行数: 1060
+2025-09-19 14:25:28 - UiAutomationProject - INFO - 抓取到测试执行期间的日志内容，行数范围: 800-1060
+2025-09-19 14:25:28 - UiAutomationProject - INFO - 详细日志已更新: ID=43
+2025-09-19 14:25:28 - UiAutomationProject - INFO - 详细日志已存储到执行记录 43
+2025-09-19 14:25:31 - UiAutomationProject - INFO - 执行记录已更新: ID=43, 状态=passed
+2025-09-19 14:26:24 - UiAutomationProject - INFO - 开始获取项目代码 - 项目ID: 44
+2025-09-19 14:26:24 - UiAutomationProject - INFO - 请求参数 - 时间戳: 1758263184880, 随机数: 0.27933261691982636, 缓存破坏器: 382122
+2025-09-19 14:26:24 - UiAutomationProject - INFO - 请求头 - X-Requested-With: XMLHttpRequest, X-Cache-Buster: 382122
+2025-09-19 14:26:24 - UiAutomationProject - INFO - 项目信息 - 流程名称: Elephant-进入游戏, 产品IDs: ["SCS"], 系统: Web
+2025-09-19 14:26:24 - UiAutomationProject - INFO - 尝试读取文件 - 项目ID: 44, 文件路径: Test_Case\SCS_Web_test.py
+2025-09-19 14:26:24 - UiAutomationProject - INFO - 成功读取文件 - 项目ID: 44, 文件大小: 50180 字符
+2025-09-19 14:26:24 - UiAutomationProject - INFO - 读取现有文件成功，文件大小: 50180 字符
+2025-09-19 14:26:24 - UiAutomationProject - INFO - 文件不存在，生成默认代码，代码长度: 50180 字符
+2025-09-19 14:26:24 - UiAutomationProject - INFO - 代码获取完成，返回响应
+2025-09-19 14:26:42 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_step_1_after_2025_09_19_14_24_00.png
+2025-09-19 14:26:45 - UiAutomationProject - INFO - 请求测试截图: test_SCS_2_step_1_after_2025_09_19_14_24_02.png
+2025-09-19 14:26:48 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_step_2_after_2025_09_19_14_24_30.png
+2025-09-19 14:26:53 - UiAutomationProject - INFO - 请求测试截图: over_test_test_SCS_1_test_step_3_2025_09_19_14_25_08.png
+2025-09-19 14:27:44 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_step_2_after_2025_09_19_14_22_25.png
+2025-09-19 14:27:45 - UiAutomationProject - INFO - 请求测试截图: test_SCS_1_over_test_test_step_2_2025_09_19_14_22_38.png
+2025-09-19 14:32:42 - UiAutomationProject - INFO - 测试连接 - 项目ID: 43, 系统: Web, 产品类型: web, 环境: test
+2025-09-19 14:32:42 - UiAutomationProject - INFO - 项目产品地址: ['https://letsgogogold.com/']
+2025-09-19 14:32:42 - UiAutomationProject - INFO - 开始连接测试 - 文件: web_google_test.py, 项目ID: 43
+2025-09-19 14:32:42 - UiAutomationProject - INFO - 设置产品地址环境变量: ['https://letsgogogold.com/']
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 开始Web连接测试...
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 获取到产品地址列表: ['https://letsgogogold.com/']
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 项目ID: 43
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 系统类型: Web
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 产品类型: web
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 环境: test
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 产品地址数量: 1
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 使用产品地址进行测试: ['https://letsgogogold.com/']
+2025-09-19 14:32:44 - UiAutomationProject - INFO - 测试连接: https://letsgogogold.com/
+2025-09-19 14:32:48 - UiAutomationProject - INFO - [SUCCESS] https://letsgogogold.com/ 连接成功 (状态码: 200)
+2025-09-19 14:32:48 - UiAutomationProject - INFO - 
+连接测试结果:
+2025-09-19 14:32:48 - UiAutomationProject - INFO - 成功: 1/1
+2025-09-19 14:32:48 - UiAutomationProject - INFO - [SUCCESS] Web连接测试通过
+2025-09-19 14:32:48 - UiAutomationProject - INFO - 连接测试输出 - 返回码: 0
+2025-09-19 14:32:48 - UiAutomationProject - INFO - 连接测试输出 - 标准输出: D:\UiAutomationProject
+
+2025-09-19 14:32:48 - UiAutomationProject - INFO - 连接测试输出 - 错误输出: 2025-09-19 14:32:43 - UiAutomationProject - INFO - 开始Web连接测试...
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 获取到产品地址列表: ['https://letsgogogold.com/']
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 项目ID: 43
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 系统类型: Web
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 产品类型: web
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 环境: test
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 产品地址数量: 1
+2025-09-19 14:32:43 - UiAutomationProject - INFO - 使用产品地址进行测试: ['https://letsgogogold.com/']
+2025-09-19 14:32:44 - UiAutomationProject - INFO - 测试连接: https://letsgogogold.com/
+2025-09-19 14:32:48 - UiAutomationProject - INFO - [SUCCESS] https://letsgogogold.com/ 连接成功 (状态码: 200)
+2025-09-19 14:32:48 - UiAutomationProject - INFO - 
+连接测试结果:
+2025-09-19 14:32:48 - UiAutomationProject - INFO - 成功: 1/1
+2025-09-19 14:32:48 - UiAutomationProject - INFO - [SUCCESS] Web连接测试通过
+
+2025-09-19 14:50:38 - UiAutomationProject - INFO - 应用已停止
